@@ -1,0 +1,95 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.navbar{
+
+width: 100%;
+height: 50px;
+display: flex;
+justify-content: space-around;
+list-style: none;
+padding: 15px;
+font-size: 25px;
+font-weight: 500;
+
+background-color: rgb(189, 131, 54);
+
+a{
+    text-decoration: none;
+
+}
+
+}
+.homes{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('./assets/unnamed.png');
+    background-position: center;
+    background-size:cover ;
+  
+ 
+}
+.home{
+
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+.hero{
+
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 10px;
+}
+.boxs{
+width: 100%;
+height: 100vh;
+border: 1px solid black;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background-color: black;
+/* margin-top: 10px; */
+
+}  
+.box{
+    width: 25%;
+    height: 150px;
+    border: 1px solid black;
+    border-radius :10px ;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: aliceblue;
+    span{
+        font-size: 20px;
+        font-weight: 500;
+        padding:5px ;
+        margin-top: 10px;
+    }
+    
+    }
